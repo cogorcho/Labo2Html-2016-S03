@@ -1,0 +1,31 @@
+body {
+    background-color: cadetblue;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+}
+
+thead tr td {
+    color: cyan;
+    text-align: center;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: DarkSeaGreen ;
+}
+
+tr:hover {
+    background-color: #ffff99;
+    font-style: italic;
+    cursor: pointer;
+} 
