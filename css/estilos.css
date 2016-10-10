@@ -1,5 +1,7 @@
 body {
     background-color: cadetblue;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 header {
@@ -11,6 +13,8 @@ footer {
 }
 
 table {
+    text-align: left;
+    display: inline-block;
     border: 1px solid black;
 }
 
@@ -29,3 +33,7 @@ tr:hover {
     font-style: italic;
     cursor: pointer;
 } 
+
+section#principal {
+    text-align: center;
+}
